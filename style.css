@@ -1,0 +1,124 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    color: white !important;
+    font-family: sans-serif;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.todoH1 {
+    text-align: center;
+
+}
+
+.todoH1, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    padding: 10px 40px 10px 10px;
+    font-size: 15px;
+    border: none !important;
+    background: white;
+    width: 400px;
+    border-radius:10px 0 0px 10px ;
+}
+
+form button {
+    padding: 10px;
+    font-size: 15px;
+    background: white;
+    border: none;
+    color: #d88771;
+    background: white;
+    transition: all 0.3s ease;
+}
+.btndAll{
+    border-radius: 0px 10px 10px 0px;
+}
+form button:hover {
+    background: #d88771;
+    color: white;
+}
+
+form button i {
+    font-size: 13px;
+    font-size: 20px;
+    /* width: 30px; */
+    /* height: 40px; */
+}
+
+.todoList {
+    width: 450px;
+    border-radius:10px 0 0px 10px ;
+
+    /* border: 2px solid darkblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.listItem{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+.mainContainer {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.listItem li{
+    flex: 1;
+}
+
+li {
+    /* margin-left: 200px; */
+    list-style: none;
+    /* background: white; */
+    color: black;
+    /* border: 2px solid black; */
+    /* width: 00px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 10px 5px 10px;
+}
+.container2{
+    /* border: 2px solid seagreen; */
+    display: flex;
+    justify-content: center;
+    /* width: 100px; */
+}
+.btnM, .btnP{   
+    margin-left:10px ;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
+}
+.btnM:hover{
+    color: red;
+
+}
+.btnP:hover{
+    color: royalblue;
+}
